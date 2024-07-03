@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.6)), 
+                url('SM picture/391674702_18289108096182081_6870695381501152467_n.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+
+.container h1, .container h2 {
+    color: rgb(76, 139, 233);
+    font-size: 40px; 
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.container p.lead {
+    font-size: 1.25rem;
+    font-style: italic;
+    font-family: 'Poppins';
+}
+
+.container section {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.container ul {
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+.container ul li {
+    margin-bottom: 0.5rem;
+    
+}
+
+.container ul li strong {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    font-size: inherit;
+}

@@ -1,0 +1,42 @@
+
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.85)), 
+                url('background\ 2.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+.navbar-brand {
+    font-weight: bold;
+    
+}
+
+.container h1, .container h2 {
+    color: rgb(112, 112, 112);
+    font-family: 'Poppins';
+}
+
+.container p.lead {
+    font-size: 1.25rem;
+    font-style: italic;
+    font-family: Poppins;
+}
+
+.container section {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.container ul {
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+.container ul li {
+    margin-bottom: 0.5rem;
+    
+}
+
+.container ul li strong {
+    font-weight: bold;
+}

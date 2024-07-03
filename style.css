@@ -1,0 +1,54 @@
+/* styles.css */
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.6)), 
+                url('littlethunder\ 1.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+
+.container h1, .container h2 {
+    color: #54339c;
+    font-size: 40px; 
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-shadow: 
+        0 0 3px #6e48bf,
+        0 0 70px #6e48bf,
+        0 0 15px #6e48bf,
+        0 0 30px #6e48bf;
+}
+
+.container p.lead {
+    font-size: 1.25rem;
+    font-style: italic;
+    font-family: Poppins;
+}
+
+.container section {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.container ul {
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+.container ul li {
+    margin-bottom: 0.5rem;
+    
+}
+
+.container ul li strong {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    font-size: inherit;
+}

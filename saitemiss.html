@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artists - Art Gallery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="shortcut icon" href="logo.svg">
+    <style>
+        .col-md-8 {
+            font-size: 1.3rem; /* Apply font size directly to the div */
+            font-family: Poppins, sans-serif;
+            color: rgb(11, 55, 55);
+        }
+    </style>
+</head>
+
+<body><!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="logo.svg" class="svg-logo" alt="A2 Gallery Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="artists.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Artists
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="littlethunder.html">Little Thunder</a>
+                        <a class="dropdown-item" href="saitemiss.html">SAITEMISS</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="exhibitions.html">Exhibitions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="exhibitions.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</body>
+
+<!-- SAITEMISS Section -->
+<div class="container mt-5">
+    <h1 class="display-4">SAITEMISS</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="saitemiss profile.jpeg" class="img-fluid" alt="SAITEMISS">
+        </div>
+        <div class="col-md-8">
+            <p><span class="highlight"></span><br>
+                <span class="highlight">SAITEMISS is an illustrator based in Taipei, Taiwan, specializing in themes of love and romance.</span><br>
+                <span class="highlight">Hosting annual exhibitions, her work captures the essence of heartfelt storytelling. </span><br>
+                <span class="highlight">Accompanied by her playful whippet, Mai-Mai, Saitemiss continues to inspire and connect with her audience through her enchanting illustrations.</span><br>
+                <span class="highlight">SAITEMISS also has a significant following on internet platform, <a href="https://www.instagram.com/saitemiss/">Instagram.</a></span>
+            </p>
+            <p><span class="highlight"></span><br>
+                Explore more of SAITEMISS's artworks and exhibitions <a href="exhibitions.html">here</a>.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-light text-center text-lg-start mt-5">
+    <div class="container p-4">
+        <p>&copy; 2024 A2 Gallery. All rights reserved.</p>
+    </div>
+</footer>
+</html>
